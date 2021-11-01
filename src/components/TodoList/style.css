@@ -1,0 +1,24 @@
+ul {
+  padding-inline-start: 0px;
+}
+
+.item {
+  width: 400px;
+}
+
+.item li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item button {
+  margin: 10px 0;
+  padding: 0 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
